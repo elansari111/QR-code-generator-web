@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import { Globe, Type, Mail, Wifi, ArrowRight, Loader2 } from 'lucide-react';
+import { Globe, Mail, Wifi, ArrowRight, Loader2 } from 'lucide-react';
 import Customization from './Customization';
 
 const QR_TYPES = [
   { id: 'url', label: 'URL', icon: Globe, available: true },
-  { id: 'text', label: 'Text', icon: Type, available: true },
   { id: 'email', label: 'Email', icon: Mail, available: true },
   { id: 'wifi', label: 'Wi-Fi', icon: Wifi, available: false },
 ];
