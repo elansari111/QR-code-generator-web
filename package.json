@@ -7,6 +7,7 @@
     "server": "node server/index.js",
     "client": "npm --prefix client run dev",
     "client:build": "npm --prefix client run build",
+    "build": "npm run client:build",
     "dev": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"npm run server\" \"npm run client\"",
     "start": "node server/index.js",
     "cli": "node index.js",
