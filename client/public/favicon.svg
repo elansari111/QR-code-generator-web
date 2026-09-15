@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" rx="8" fill="#4F46E5"/>
+  <!-- Top Left Pattern -->
+  <rect x="5" y="5" width="9" height="9" rx="2" fill="white"/>
+  <rect x="7" y="7" width="5" height="5" rx="1" fill="#4F46E5"/>
+  <rect x="8" y="8" width="3" height="3" fill="white"/>
+  <!-- Top Right Pattern -->
+  <rect x="18" y="5" width="9" height="9" rx="2" fill="white"/>
+  <rect x="20" y="7" width="5" height="5" rx="1" fill="#4F46E5"/>
+  <rect x="21" y="8" width="3" height="3" fill="white"/>
+  <!-- Bottom Left Pattern -->
+  <rect x="5" y="18" width="9" height="9" rx="2" fill="white"/>
+  <rect x="7" y="20" width="5" height="5" rx="1" fill="#4F46E5"/>
+  <rect x="8" y="21" width="3" height="3" fill="white"/>
+  <!-- Dots -->
+  <rect x="18" y="18" width="3" height="3" rx="0.5" fill="white"/>
+  <rect x="24" y="18" width="3" height="3" rx="0.5" fill="white"/>
+  <rect x="21" y="21" width="3" height="3" rx="0.5" fill="white"/>
+  <rect x="18" y="24" width="3" height="3" rx="0.5" fill="white"/>
+  <rect x="24" y="24" width="3" height="3" rx="0.5" fill="white"/>
+</svg>
