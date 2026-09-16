@@ -67,6 +67,8 @@ export default function App() {
         data: inputVal.trim(),
         size,
         margin,
+        fgColor,
+        bgColor,
         format: 'png',
       });
 
@@ -83,12 +85,12 @@ export default function App() {
     handleGenerate();
   }, []);
 
-  // Regenerate when size or margin changes
+  // Regenerate when size, margin, or colors change
   useEffect(() => {
     if (qrResult) {
       handleGenerate();
     }
-  }, [size, margin]);
+  }, [size, margin, fgColor, bgColor]);
 
   // Copy original URL to clipboard
   const handleCopyUrl = async () => {
